@@ -267,3 +267,26 @@ ul.dso-edit-menu-dropdown > li .nav-item.nav-link {
 .table td {
   vertical-align: middle;
 }
+
+// particularidades do Ibict
+//-- ### variables --//
+$sizeMD: 8px;
+
+
+.badge-secondary {
+    background-color:var(--yellow);
+    color:var(--cyan);
+}
+.btn {
+    padding: 0 24px;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow:none;
+}
+input.form-control {
+    height: 40px;
+    border-radius: 8px;
+}
