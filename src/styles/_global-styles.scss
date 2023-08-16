@@ -290,3 +290,15 @@ input.form-control {
     height: 40px;
     border-radius: 8px;
 }
+.pagination {
+    gap:8px;
+    .page-link {
+        border-radius: 8px!important;
+    }
+}
+
+.bottom-footer {
+    small {
+        color: var(--dark);
+    }
+}
