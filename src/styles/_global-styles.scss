@@ -306,3 +306,34 @@ input.form-control {
         color: var(--dark);
     }
 }
+
+.facet-filter {
+    border-radius:$sizeMD!important;
+    border:1px solid $cyan!important;
+    background: none!important;    
+}
+
+.filters.py-2 {
+    padding: 16px 0!important;
+}
+
+.filter-name {
+    padding: 4px 0!important;
+}
+
+button.filter-name {
+    h5 {
+        margin-bottom: 0!important;
+    }
+}
+
+.form-group {
+    label {
+        width: 100%;
+    }
+}
+
+
+.toggle-more-filters {
+    margin:8px 0 0px 0;
+}
