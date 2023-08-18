@@ -6,7 +6,7 @@
        (click)="switchViewTo(viewModeEnum.ListElement)"
        routerLinkActive="active"
        [class.active]="currentMode === viewModeEnum.ListElement"
-       class="btn btn-warning"
+       class="btn btn-primary"
        [attr.data-test]="'list-view' | dsBrowserOnly">
        <span class="uil uil-list-ul"></span><span class="sr-only">{{'search.view-switch.show-list' | translate}}</span>
     </button>
@@ -17,7 +17,7 @@
        (click)="switchViewTo(viewModeEnum.GridElement)"
        routerLinkActive="active"
        [class.active]="currentMode === viewModeEnum.GridElement"
-       class="btn btn-warning"
+       class="btn btn-primary"
        [attr.data-test]="'grid-view' | dsBrowserOnly">
        <span class="uil uil-th"></span><span class="sr-only">{{'search.view-switch.show-grid' | translate}}</span>
     </button>
